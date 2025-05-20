@@ -1,1 +1,12 @@
-/*# sourceMappingURL=index.css.map */
+/***** Variables *****/
+/***** Colors *****/
+/***** Fonts *****/
+/***** General *****/
+* {
+  margin: 0;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #F6F6F6;
+}/*# sourceMappingURL=index.css.map */
