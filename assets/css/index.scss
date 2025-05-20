@@ -57,6 +57,11 @@
     text-decoration : none;
   }
 
+/* Animations */
+@import '../../sass/heart-like';
+@import '../../sass/discovery-btn';
+@import '../../sass/loader';
+
 /* En-tête */
 .header {
     display : flex;
