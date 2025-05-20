@@ -39,6 +39,15 @@ a {
   opacity: 0;
 }
 
+.hero__btn {
+  transition: all 600ms;
+  cursor: pointer;
+}
+.hero__btn:active {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+}
+
 /* En-tête */
 .header {
   display: flex;
