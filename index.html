@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/css/index.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/images/logo_noir.svg" type="image/x-icon">
+        <title>OhMyFood - Page d'Accueil</title>
+    </head>
+
+    <body>
+        <!--Chargement-->
+
+        <!--En-tête-->
+        <header class="header">
+            <img class="header__logo" src="assets/images/logo_noir.svg" alt="Logo Oh My Food">
+        </header>
+
+        <main>
+
+        <!--Localisation-->
+        <div class="location">
+            <img class="location__picto" src="assets/images/pictograms/pin.svg" alt="Pictogram de localisation">
+            <p class="location__text">Paris, Belleville</p>
+        </div>
+
+        <!--Presentation-->
+        <section class="hero">
+            <h1 class="hero__title">Réservez le menu qui vous convient</h1>
+            <p class="hero__text">Découvrez des restaurants exceptions, sélectionné par nos soins</p>
+            <a href="#restaurants" class="hero__btn">Explorer nos restaurants</a>
+        </section>
+
+        <!--Fonctionnement-->
+        <section class="function">
+            <h2 class="section_title">Fonctionnement</h2>
+            <div class="function__card--direction">
+                <div class="function__card">
+                    <p class="function__nmb">1</p>
+                    <div class="function__content">
+                        <img class="function__picto" src="assets/images/pictograms/mobile.svg" alt="Pictogram mobile">
+                        <p class="function__text">Choisissez un restaurant</p>
+                    </div>
+                </div>
+                <div class="function__card">
+                    <p class="function__nmb">2</p>
+                    <div class="function__content">
+                        <img class="function__picto" src="assets/images/pictograms/list-ul.svg" alt="Pictogram mobile">
+                        <p class="function__text">Composez votre menu</p>
+                    </div>
+                </div>
+                <div class="function__card">
+                    <p class="function__nmb">3</p>
+                    <div class="function__content">
+                        <img class="function__picto" src="assets/images/pictograms/list-ul.svg" alt="Pictogram mobile">
+                        <p class="function__text">Dégustez au restaurant</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Restaurants-->
+        <section class="restaurants" id="restaurants">
+            <h2 class="section__title">Restaurants</h2>
+            <div class="restaurant__cards--row">
+                <a href="restaurants/restaurant_1.html" class="restaurant__cards--direction__link">
+                    <article class="restaurant__card">
+                        <div class="restaurant__card__image__container">
+                            <p class="restaurant__card__new">Nouveau</p>
+                            <img class="restaurant__card__image" src="assets/images/restaurants/restaurant_1.jpg" alt="Image restaurant">
+                        </div>
+                        <div class="restaurant__card__content">
+                            <div>
+                                <h3 class="restaurant__card__title">La palette du goût</h3>
+                                <p class="restaurant__card__text">Ménilmontant</p>
+                            </div>
+                            <div class="restaurant__like">
+                                <img src="assets/images/pictograms/empty-heart.svg" alt="Coeur" class="restaurant__like--empty">
+                                <img src="assets/images/pictograms/full-heart.svg" alt="Coeur plein" class="restaurant__like--full">
+                            </div>
+                        </div>
+                    </article>
+                </a>
+                <a href="restaurants/restaurant_1.html" class="restaurant__cards--direction__link">
+                    <article class="restaurant__card">
+                        <div class="restaurant__card__image__container">
+                            <p class="restaurant__card__new">Nouveau</p>
+                            <img class="restaurant__card__image" src="assets/images/restaurants/restaurant_2.jpg" alt="Image restaurant">
+                        </div>
+                        <div class="restaurant__card__content">
+                            <div>
+                                <h3 class="restaurant__card__title">La note enchantée</h3>
+                                <p class="restaurant__card__text">Charonne</p>
+                            </div>
+                            <div class="restaurant__like">
+                                <img src="assets/images/pictograms/empty-heart.svg" alt="Coeur" class="restaurant__like--empty">
+                                <img src="assets/images/pictograms/full-heart.svg" alt="Coeur plein" class="restaurant__like--full">
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <div class="restaurant__cards--row">
+                <a href="restaurants/restaurant_1.html" class="restaurant__cards--direction__link">
+                    <article class="restaurant__card">
+                        <div class="restaurant__card__image__container">
+                            <p class="restaurant__card__new--hidden">Nouveau</p>
+                            <img class="restaurant__card__image" src="assets/images/restaurants/restaurant_3.jpg" alt="Image restaurant">
+                        </div>
+                        <div class="restaurant__card__content">
+                            <div>
+                                <h3 class="restaurant__card__title">A la française</h3>
+                                <p class="restaurant__card__text">Cité Rouge</p>
+                            </div>
+                            <div class="restaurant__like">
+                                <img src="assets/images/pictograms/empty-heart.svg" alt="Coeur" class="restaurant__like--empty">
+                                <img src="assets/images/pictograms/full-heart.svg" alt="Coeur plein" class="restaurant__like--full">
+                            </div>
+                        </div>
+                    </article>
+                </a>
+                <a href="restaurants/restaurant_1.html" class="restaurant__cards--direction__link">
+                    <article class="restaurant__card">
+                        <div class="restaurant__card__image__container">
+                            <p class="restaurant__card__new--hidden">Nouveau</p>
+                            <img class="restaurant__card__image" src="assets/images/restaurants/restaurant_4.jpg" alt="Image restaurant">
+                        </div>
+                        <div class="restaurant__card__content">
+                            <div>
+                                <h3 class="restaurant__card__title">Le délice des sens</h3>
+                                <p class="restaurant__card__text">Folie-Méricourt</p>
+                            </div>
+                            <div class="restaurant__like">
+                                <img src="assets/images/pictograms/empty-heart.svg" alt="Coeur" class="restaurant__like--empty">
+                                <img src="assets/images/pictograms/full-heart.svg" alt="Coeur plein" class="restaurant__like--full">
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        </main>
+
+        <!--Pied de page-->
+        <footer class="footer">
+            <img class="footer__logo" src="assets/images/logo_blanc.svg" alt="Logo OhMyFood">
+            <div class="footer__box--tablet-desktop">
+                <div class="footer__box">
+                    <a class="footer__box__link" href="#">
+                        <img class="footer__box__link__picto" src="assets/images/pictograms/restaurant.svg">
+                        Proposer un restaurant
+                    </a>
+                    <a class="footer__box__link" href="#">
+                        <img class="footer__box__link__picto" src="assets/images/pictograms/partenair.svg">
+                        Devenir Partenaire
+                    </a>
+                </div>
+                <div class="footer__box">
+                    <a class="footer__box__link" href="#">Mentions légales</a>
+                    <a class="footer__box__link" href="#">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
