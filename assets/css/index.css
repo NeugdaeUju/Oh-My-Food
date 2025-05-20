@@ -30,6 +30,15 @@ a {
   text-decoration: none;
 }
 
+/* Animations */
+.restaurant__like:active .restaurant__like--full {
+  opacity: 1;
+}
+
+.restaurant__like .restaurant__like--full {
+  opacity: 0;
+}
+
 /* En-tête */
 .header {
   display: flex;
