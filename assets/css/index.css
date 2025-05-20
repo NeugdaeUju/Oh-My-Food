@@ -221,4 +221,29 @@ a {
   font-size: 17px;
   font-weight: 300;
   margin-top: 5px;
+}
+
+.restaurant__like {
+  position: relative;
+}
+.restaurant__like__switch {
+  display: inline-block;
+}
+.restaurant__like--empty {
+  width: 29px;
+  height: 80px;
+  transition: opacity 600ms ease;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  cursor: pointer;
+}
+.restaurant__like--full {
+  width: 29px;
+  height: 80px;
+  transition: opacity 600ms ease;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
