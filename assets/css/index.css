@@ -39,6 +39,14 @@ a {
   opacity: 0;
 }
 
+@media (min-width: 1020px) {
+  .restaurant__like:active .restaurant__like--full {
+    opacity: 0;
+  }
+  .restaurant__like:hover .restaurant__like--full {
+    opacity: 1;
+  }
+}
 .hero__btn {
   transition: all 600ms;
   cursor: pointer;
@@ -48,6 +56,15 @@ a {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
 }
 
+@media (min-width: 1020px) {
+  .hero__btn:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+  }
+  .hero__btn:active {
+    filter: none;
+  }
+}
 /* Chargement */
 .loader {
   position: fixed;
@@ -365,4 +382,106 @@ a {
 .footer__box__link__picto {
   margin-right: 10px;
   height: 13px;
+}
+
+/* Responsive */
+/* Version tablette (768px) */
+@media (min-width: 768px) {
+  .section__title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .restaurant__cards--direction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .restaurant__cards--direction__link {
+    width: 49%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .footer__logo {
+    height: 27px;
+  }
+  .footer__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+  .footer__box--tablet-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__box__link {
+    padding: 0 10px;
+  }
+  .footer__box__picto {
+    margin-right: 5px;
+  }
+}
+/* Version ordinateur (1020px) */
+@media (min-width: 1020px) {
+  .section__title {
+    margin-left: 0;
+  }
+  .header {
+    padding: 30px 0;
+  }
+  .header__logo {
+    height: 34px;
+  }
+  .hero {
+    padding: 30px 0;
+    margin: 0;
+  }
+  .function {
+    padding: 50px;
+  }
+  .function__card--direction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  .function__card {
+    margin: 0 18px;
+  }
+  .restaurants {
+    padding: 30px 50px;
+  }
+  .restaurant__cards--direction {
+    margin-bottom: 30px;
+  }
+  .restaurant__cards--direction__link {
+    width: 47%;
+  }
+  .restaurant__card__image {
+    height: 231px;
+  }
+  .footer {
+    padding-top: 64px;
+  }
+}
+/* Version ecran large (1440px) */
+@media (min-width: 1440px) {
+  .function {
+    padding: 30px 180px;
+  }
+  .restaurants {
+    padding: 30px 180px;
+  }
+  .restaurant__cards--direction {
+    margin-bottom: 50px;
+  }
+  .restaurant__cards--direction__link {
+    width: 45%;
+  }
 }/*# sourceMappingURL=index.css.map */
