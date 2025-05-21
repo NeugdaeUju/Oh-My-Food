@@ -175,6 +175,35 @@ input:not(:checked) ~ .restaurant__like--full {
     animation: price-reduction 600ms both;
   }
 }
+@media (min-width: 1440px) {
+  .card:hover .card__check {
+    opacity: 1;
+    width: 59px;
+    transition: all 600ms ease;
+  }
+  .card:hover .card__name {
+    animation: price-reduction 600ms both;
+  }
+  .card .card__name {
+    animation: price-inverse 600ms both;
+  }
+  @keyframes price-reduction {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+  @keyframes price-inverse {
+    0% {
+      width: 85%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}
 /* En tête */
 .header {
   display: flex;
