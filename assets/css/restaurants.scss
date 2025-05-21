@@ -38,6 +38,18 @@
     background-color: $background-color;
   }
 
+  .section_title {
+          font-size : $title-font-size;
+          font-style : $title-font-style;
+          font-weight: $title-font-weight;
+      }
+  
+  p {
+    font-size : $text-font-size;
+    font-style : $text-font-style;
+    font-weight : $text-font-weight;
+  }
+
   a{
     color : $black;
     text-decoration : none;
