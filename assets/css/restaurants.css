@@ -12,6 +12,11 @@ body {
   background-color: #F6F6F6;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 /* En tête */
 .header {
   display: flex;
@@ -39,4 +44,51 @@ body {
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+/* Menu */
+.menu {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  position: relative;
+  top: -32px;
+  z-index: 1;
+  background-color: #F6F6F6;
+}
+.menu__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 41px 42px 17px;
+}
+.menu__title {
+  font-family: Shrikhand;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.restaurant__like {
+  position: relative;
+}
+.restaurant__like__switch {
+  display: inline-block;
+}
+.restaurant__like--empty {
+  width: 29px;
+  height: 80px;
+  transition: opacity 600ms ease;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  cursor: pointer;
+}
+.restaurant__like--full {
+  width: 29px;
+  height: 80px;
+  transition: opacity 600ms ease;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  cursor: pointer;
 }/*# sourceMappingURL=restaurants.css.map */

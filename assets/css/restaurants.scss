@@ -38,6 +38,11 @@
     background-color: $background-color;
   }
 
+  a{
+    color : $black;
+    text-decoration : none;
+  }
+
 /* En tête */
 .header {
     display : flex;
@@ -68,3 +73,52 @@
         object-fit: cover;
     }
 }
+
+/* Menu */
+.menu {
+    border-top-right-radius : 30px;
+    border-top-left-radius: 30px;
+    position : relative;
+    top : -32px;
+    z-index : 1;
+    background-color : $background-color;
+
+    &__header {
+        display : flex;
+        flex-direction : row;
+        justify-content: space-between;
+        align-items: center;
+        padding : 32px 41px 42px 17px;
+    }
+
+    &__title {
+        font-family : Shrikhand;
+        font-size : 28px;
+        font-weight: 400;
+    }
+}
+
+.restaurant__like {
+    position : relative;
+    &__switch{
+      display : inline-block;
+    }
+    &--empty {
+        width : 29px;
+        height : 80px;
+        transition : opacity 600ms ease;
+        position : absolute;
+        top : -30px;
+        left : -30px;
+        cursor: pointer;
+    }
+    &--full {
+        width : 29px;
+        height : 80px;
+        transition : opacity 600ms ease;
+        position : absolute;
+        top : -30px;
+        left : -30px;
+        cursor: pointer;
+    }
+  }
