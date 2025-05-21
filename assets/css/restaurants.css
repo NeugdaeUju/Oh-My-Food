@@ -222,6 +222,12 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .hero {
+    width: 100%;
+  }
+  .hero__image {
+    width: 100%;
+  }
 }
 /* Version Ordinateur (1020px) */
 /* Version Ecran Large (1440px) *//*# sourceMappingURL=restaurants.css.map */

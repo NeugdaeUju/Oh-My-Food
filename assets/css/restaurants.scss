@@ -272,6 +272,14 @@
         flex-direction : column;
         align-items : center;
     }
+
+    .hero {
+        width : 100%;
+
+        &__image {
+            width: 100%;
+        }
+    }
 }
 
 /* Version Ordinateur (1020px) */
