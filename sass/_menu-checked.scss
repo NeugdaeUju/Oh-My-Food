@@ -46,3 +46,30 @@ position : relative;
   0% {width: 80%;}
   100% {width : 100%}
 }
+
+/* Responsive */
+@media (min-width : 1020px) {
+  .card {
+&:active .card__check {
+    transform: none;
+    opacity : 1;
+    width: 0;
+    transition: none;
+}
+
+&:active .card__name {
+        animation : none;
+}
+
+&:hover .card__check {
+    opacity : 1;
+    width: 59px;
+    transition: all 600ms ease;
+}
+
+&:hover .card__name {
+        animation : price-reduction 600ms both;
+}
+
+}
+}
