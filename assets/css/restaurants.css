@@ -239,6 +239,34 @@ a {
   .menu__title {
     padding-right: 30px;
   }
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    top: -34px;
+    padding-top: 64px;
+  }
+  .footer__logo {
+    height: 27px;
+  }
+  .footer__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+  .footer__box--tablet-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__box__link {
+    padding: 0 10px;
+  }
+  .footer__box__picto {
+    margin-right: 5px;
+  }
 }
 /* Version Ordinateur (1020px) */
 /* Version Ecran Large (1440px) *//*# sourceMappingURL=restaurants.css.map */
