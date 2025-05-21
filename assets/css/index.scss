@@ -388,7 +388,15 @@
   .section__title {
     margin-left : 0;
   }
-  
+
+  .header {
+    padding : 30px 0;
+
+    &__logo {
+      height : 34px;
+    }
+  }
+
 }
 
 /* Version ecran large (1440px) */
