@@ -27,4 +27,16 @@ body {
 }
 .header__link {
   margin-left: 17px;
+}
+
+/* Image d'illustration */
+.hero {
+  position: relative;
+}
+.hero__image {
+  height: 275px;
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=restaurants.css.map */
