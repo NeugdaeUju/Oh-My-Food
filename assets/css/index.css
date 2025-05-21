@@ -437,5 +437,17 @@ a {
   .function__card {
     margin: 0 18px;
   }
+  .restaurants {
+    padding: 30px 50px;
+  }
+  .restaurant__cards--direction {
+    margin-bottom: 30px;
+  }
+  .restaurant__cards--direction__link {
+    width: 47%;
+  }
+  .restaurant__card__image {
+    height: 231px;
+  }
 }
 /* Version ecran large (1440px) *//*# sourceMappingURL=index.css.map */

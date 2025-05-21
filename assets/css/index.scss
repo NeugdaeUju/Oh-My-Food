@@ -418,6 +418,22 @@
     }
   }
 
+  .restaurants {
+    padding : 30px 50px;
+  }
+
+  .restaurant__cards--direction {
+    margin-bottom : 30px;
+
+    &__link {
+      width : 47%;
+    }
+  }
+
+  .restaurant__card__image {
+    height : 231px;
+  }
+  
 }
 
 /* Version ecran large (1440px) */
