@@ -258,3 +258,22 @@
       
     }
 }
+
+/* Responsive */
+
+/* Version Tablette (768px) */
+@media (min-width : 768px) {
+    body {
+        background-color: $white;
+    }
+
+    main {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+    }
+}
+
+/* Version Ordinateur (1020px) */
+
+/* Version Ecran Large (1440px) */
