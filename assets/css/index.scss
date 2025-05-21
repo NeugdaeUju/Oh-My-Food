@@ -440,3 +440,20 @@
 }
 
 /* Version ecran large (1440px) */
+@media (min-width : 1440px) {
+  .function {
+    padding : 30px 180px;
+  }
+
+  .restaurants {
+    padding : 30px 180px;
+  }
+
+  .restaurant__cards--direction {
+    margin-bottom : 50px;
+
+    &__link {
+      width : 45%;
+    }
+  }
+}
