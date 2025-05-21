@@ -334,7 +334,12 @@
 /* Responsive */
 
 /* Version tablette (768px) */
-
+@media (min-width : 768px) {
+  .section__title {
+    margin-left : 20px;
+    margin-bottom : 20px;
+  }
+}
 /* Version ordinateur (1020px) */
 
 /* Version ecran large (1440px) */
