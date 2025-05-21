@@ -280,5 +280,14 @@ a {
     margin-right: 5px;
   }
 }
-/* Version Ordinateur (1020px) */
-/* Version Ecran Large (1440px) *//*# sourceMappingURL=restaurants.css.map */
+/* Version Ecran Large (1440px) */
+@media (min-width: 1440px) {
+  /*Menu*/
+  .menu__header {
+    padding-bottom: 40px;
+  }
+  .order__button {
+    width: 186px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=restaurants.css.map */
