@@ -204,6 +204,15 @@ input:not(:checked) ~ .restaurant__like--full {
     }
   }
 }
+.order__button {
+  transition: all 600ms;
+  cursor: pointer;
+}
+.order__button:active {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+}
+
 /* En tête */
 .header {
   display: flex;
