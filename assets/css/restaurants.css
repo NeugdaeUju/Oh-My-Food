@@ -228,6 +228,17 @@ a {
   .hero__image {
     width: 100%;
   }
+  .menu {
+    top: -40px;
+    width: 50%;
+    padding: 0 10%;
+  }
+  .menu__header {
+    justify-content: center;
+  }
+  .menu__title {
+    padding-right: 30px;
+  }
 }
 /* Version Ordinateur (1020px) */
 /* Version Ecran Large (1440px) *//*# sourceMappingURL=restaurants.css.map */

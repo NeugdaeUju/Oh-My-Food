@@ -280,6 +280,20 @@
             width: 100%;
         }
     }
+
+    .menu {
+        top : -40px;
+        width : 50%;
+        padding : 0 10%;
+
+        &__header {
+            justify-content: center;
+        }
+
+        &__title {
+            padding-right : 30px;
+        }
+    }
 }
 
 /* Version Ordinateur (1020px) */
