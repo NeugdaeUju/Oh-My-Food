@@ -444,4 +444,16 @@
   .function {
     padding : 30px 180px;
   }
+
+  .restaurants {
+    padding : 30px 180px;
+  }
+
+  .restaurant__cards--direction {
+    margin-bottom : 50px;
+
+    &__link {
+      width : 45%;
+    }
+  }
 }

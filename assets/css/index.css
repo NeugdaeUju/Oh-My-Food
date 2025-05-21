@@ -475,4 +475,13 @@ a {
   .function {
     padding: 30px 180px;
   }
+  .restaurants {
+    padding: 30px 180px;
+  }
+  .restaurant__cards--direction {
+    margin-bottom: 50px;
+  }
+  .restaurant__cards--direction__link {
+    width: 45%;
+  }
 }/*# sourceMappingURL=index.css.map */
