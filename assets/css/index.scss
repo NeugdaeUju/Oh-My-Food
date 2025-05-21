@@ -402,6 +402,22 @@
     margin : 0;
   }
 
+  .function {
+    padding : 50px;
+
+    &__card--direction {
+      display : flex;
+      flex-direction : row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top : 25px;
+    }
+
+    &__card {
+      margin : 0 18px;
+    }
+  }
+
 }
 
 /* Version ecran large (1440px) */
