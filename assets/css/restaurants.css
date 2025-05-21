@@ -29,6 +29,15 @@ a {
   text-decoration: none;
 }
 
+/* Animations */
+input:checked ~ .restaurant__like--full {
+  opacity: 1;
+}
+
+input:not(:checked) ~ .restaurant__like--full {
+  opacity: 0;
+}
+
 /* En tête */
 .header {
   display: flex;

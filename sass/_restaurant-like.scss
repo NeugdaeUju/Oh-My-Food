@@ -1,0 +1,7 @@
+input:checked ~ .restaurant__like--full {
+    opacity: 1;
+  }
+  
+  input:not(:checked) ~ .restaurant__like--full {
+    opacity: 0;
+  }
