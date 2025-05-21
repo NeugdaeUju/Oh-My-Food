@@ -339,7 +339,19 @@
     margin-left : 20px;
     margin-bottom : 20px;
   }
+
+  .restaurant__cards--direction {
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &__link {
+      width : 49%;
+    }
+  }
 }
+
 /* Version ordinateur (1020px) */
 
 /* Version ecran large (1440px) */
