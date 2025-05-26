@@ -337,7 +337,7 @@
 @media (min-width : 768px) {
   .section__title {
     margin-left : 20px;
-    margin-bottom : 20px;
+     margin-bottom : 20px;
   }
 
   .restaurant__cards--direction {
@@ -348,37 +348,6 @@
 
     &__link {
       width : 49%;
-    }
-  }
-
-  .footer {
-    display : flex;
-    flex-direction : row-reverse;
-    align-items: center;
-
-    &__logo {
-      height : 27px;
-    }
-
-    &__box {
-      display : flex;
-      flex-direction : row;
-      align-items: center;
-      justify-content: space-between;
-      padding-right : 50px;
-
-      &--tablet-desktop {
-        display : flex;
-        flex-direction : row;
-      }
-
-      &__link {
-        padding : 0 10px;
-      }
-      
-      &__picto {
-        margin-right : 5px;
-      }
     }
   }
 }
@@ -435,7 +404,35 @@
   }
 
   .footer {
+    display : flex;
+    flex-direction : row-reverse;
+    align-items: center;
     padding-top : 64px;
+
+    &__logo {
+      height : 27px;
+    }
+
+    &__box {
+      display : flex;
+      flex-direction : row;
+      align-items: center;
+      justify-content: space-between;
+      padding-right : 50px;
+
+      &--tablet-desktop {
+        display : flex;
+        flex-direction : row;
+      }
+
+      &__link {
+        padding : 0 10px;
+      }
+      
+      &__picto {
+        margin-right : 5px;
+      }
+    }
   }
 }
 

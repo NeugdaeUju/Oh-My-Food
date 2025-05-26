@@ -474,6 +474,9 @@ input:not(:checked) ~ .restaurant__like--full {
     left: 0;
     cursor: pointer;
   }
+}
+/*Version Ordinateur*/
+@media (min-width: 1020px) {
   .footer {
     display: flex;
     flex-direction: row-reverse;
@@ -505,7 +508,6 @@ input:not(:checked) ~ .restaurant__like--full {
 }
 /* Version Ecran Large (1440px) */
 @media (min-width: 1440px) {
-  /*Menu*/
   .menu__header {
     padding-bottom: 40px;
   }
