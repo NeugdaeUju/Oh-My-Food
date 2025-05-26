@@ -287,12 +287,6 @@
     background-color: $white;
   }
 
-  main {
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-  }
-
   .hero {
     width : 100%;
 
@@ -301,18 +295,8 @@
     }
   }
 
-  .menu {
-    top : -40px;
-    width : 50%;
-    padding : 0 10%;
-
-    &__header {
-      justify-content: center;
-    }
-
-    &__title {
-      padding-right : 30px;
-    }
+  .restaurant__like {
+    right : 41px;
   }
 
   .restaurant__like {
@@ -348,6 +332,26 @@
 
 /*Version Ordinateur*/
 @media (min-width : 1020px) {
+  main {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+  }
+  
+  .menu {
+    top : -40px;
+    width : 50%;
+    padding : 0 10%;
+
+    &__header {
+      justify-content: center;
+    }
+
+    &__title {
+      padding-right : 30px;
+    }
+  }
+
   .footer {
     display : flex;
     flex-direction: row-reverse;
