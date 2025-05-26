@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /***** Variables *****/
-/***** Colors *****/
-/***** Fonts *****/
+/***** Couleurs *****/
+/***** Polices *****/
 /***** Générale *****/
 * {
   margin: 0;
@@ -77,8 +77,8 @@ a {
   justify-content: center;
   width: 100%;
   height: 100%;
-  animation: hidde-loader 3s forwards;
-  animation-delay: 3s;
+  animation: hidde-loader 2s forwards;
+  animation-delay: 1s;
 }
 .loader__circle--1 {
   position: absolute;
@@ -359,7 +359,7 @@ a {
   cursor: pointer;
 }
 
-/***** Footer *****/
+/* Pied de page */
 .footer {
   background-color: #353535;
   padding: 22px 25px;
@@ -399,31 +399,6 @@ a {
   }
   .restaurant__cards--direction__link {
     width: 49%;
-  }
-  .footer {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  .footer__logo {
-    height: 27px;
-  }
-  .footer__box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 50px;
-  }
-  .footer__box--tablet-desktop {
-    display: flex;
-    flex-direction: row;
-  }
-  .footer__box__link {
-    padding: 0 10px;
-  }
-  .footer__box__picto {
-    margin-right: 5px;
   }
 }
 /* Version ordinateur (1020px) */
@@ -467,7 +442,30 @@ a {
     height: 231px;
   }
   .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     padding-top: 64px;
+  }
+  .footer__logo {
+    height: 27px;
+  }
+  .footer__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+  .footer__box--tablet-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__box__link {
+    padding: 0 10px;
+  }
+  .footer__box__picto {
+    margin-right: 5px;
   }
 }
 /* Version ecran large (1440px) */

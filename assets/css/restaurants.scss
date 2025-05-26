@@ -1,48 +1,49 @@
 /* Variables */
-      /* Couleurs */
-      $light-gray : #EAEAEA;
-      $gray : #353535;
-      $background-color : #F6F6F6;
-      $white : #FFF;
-      $primary : #9356DC;
-      $pink : #FF79DA;
-      $black : #000;
-      $green : #99E2D0;
-      $green-font : #008766;
-      $degrade : linear-gradient($pink , $primary);
+  /* Couleurs */
+  $light-gray : #EAEAEA;
+  $gray : #353535;
+  $background-color : #F6F6F6;
+  $white : #FFF;
+  $primary : #9356DC;
+  $pink : #FF79DA;
+  $black : #000;
+  $green : #99E2D0;
+  $green-font : #008766;
+  $degrade : linear-gradient($pink , $primary);
       
       
-          /* Polices */
-      $text-font-size : 16px;
-      $title-font-size : 24px;
-      $hero-text-font-size : 18px;
-      $card-title-font-size : 18px;
-      $card-text-font-size : 17px;
+  /* Polices */
+  $text-font-size : 16px;
+  $title-font-size : 24px;
+  $hero-text-font-size : 18px;
+  $card-title-font-size : 18px;
+  $card-text-font-size : 17px;
       
-      $text-font-style : normal;
-      $title-font-style : normal;
-      $hero-text-font-style : normal;
+  $text-font-style : normal;
+  $title-font-style : normal;
+  $hero-text-font-style : normal;
       
-      $text-font-weight : 500;
-      $title-font-weight : 700;
-      $hero-text-font-weight : 300;
-      $card-title-font-weight : 700;
-      $card-text-font-weight : 300;
+  $text-font-weight : 500;
+  $title-font-weight : 700;
+  $hero-text-font-weight : 300;
+  $card-title-font-weight : 700;
+  $card-text-font-weight : 300;
 
 /* General */
  * {
     margin : 0;
     font-family : Roboto;
   }
+
   body {
     background-color: $background-color;
   }
 
   .section_title {
-          font-size : $title-font-size;
-          font-style : $title-font-style;
-          font-weight: $title-font-weight;
-      }
+    font-size : $title-font-size;
+    font-style : $title-font-style;
+    font-weight: $title-font-weight;
+  }
   
   p {
     font-size : $text-font-size;
@@ -61,323 +62,335 @@
 @import '../../sass/menu-checked';
 @import '../../sass/order-btn';
 
+
 /* En tête */
 .header {
-    display : flex;
-    flex-direction : row;
-    align-items: center;
-    justify-content: center;
-    padding : 14px 0;
-    box-shadow : 0px 2px 4px rgba(0, 0, 0, 0.15);
+  display : flex;
+  flex-direction : row;
+  align-items: center;
+  justify-content: center;
+  padding : 14px 0;
+  box-shadow : 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-    &__logo {
-        height: 36px;
-        width: 100%;
-    }
+  &__logo {
+    height: 36px;
+    width: 100%;
+  }
 
-    &__link {
-        margin-left : 17px;
-    }
+  &__link {
+    margin-left : 17px;
+  }
 }
 
 /* Image d'illustration */
 .hero {
-    position : relative;
+  position : relative;
 
-    &__image {
-        height : 275px;
-        width :100%;
-        display : block;
-        object-fit: cover;
-    }
+  &__image {
+    height : 275px;
+    width :100%;
+    display : block;
+    object-fit: cover;
+  }
 }
 
 /* Menu */
 .menu {
-    border-top-right-radius: 30px;
-    border-top-left-radius : 30px;
-    position : relative;
-    top : -32px;
-    z-index : 1;
-    background-color : $background-color;
+  border-top-right-radius: 30px;
+  border-top-left-radius : 30px;
+  position : relative;
+  margin-top : -40px;
+  z-index : 1;
+  background-color : $background-color;
   
-    &__header {
-      display : flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding : 32px 41px 42px 17px;
-    }
-  
-    &__title {
-      font-family : Shrikhand;
-      font-size : 28px;
-      font-weight : 400;
-    }
+  &__header {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding : 32px 41px 42px 17px;
   }
+  
+  &__title {
+    font-family : Shrikhand;
+    font-size : 28px;
+    font-weight : 400;
+  }
+}
 
 .restaurant__like {
-    position : relative;
-    &__switch{
-      display : inline-block;
-    }
-    &--empty {
-        width : 29px;
-        height : 80px;
-        transition : opacity 600ms ease;
-        position : absolute;
-        top : -30px;
-        left : -30px;
-        cursor: pointer;
-    }
-    &--full {
-        width : 29px;
-        height : 80px;
-        transition : opacity 600ms ease;
-        position : absolute;
-        top : -30px;
-        left : -30px;
-        cursor: pointer;
-    }
+  position : relative;
+  &__switch{
+    display : inline-block;
   }
 
+  &--empty {
+    width : 29px;
+    height : 80px;
+    transition : opacity 600ms ease;
+    position : absolute;
+    top : -30px;
+    left : -30px;
+    cursor: pointer;
+  }
+
+  &--full {
+    width : 29px;
+    height : 80px;
+    transition : opacity 600ms ease;
+    position : absolute;
+    top : -30px;
+    left : -30px;
+    cursor: pointer;
+  }
+}
+
 .menu__card {
-    display : flex;
-    flex-direction : column;
-    padding : 0 13px 40px 13px;
+  display : flex;
+  flex-direction : column;
+  padding : 0 13px 40px 13px;
 }
 
 .entree {
-    &__title {
-        font-size : 16px;
-        font-weight : 300;
-        padding-bottom : 8px;
-        width: 40px;
-        border-bottom : 3px solid #99E2D0;
-    }
+  &__title {
+    font-size : 16px;
+    font-weight : 300;
+    padding-bottom : 8px;
+    width: 40px;
+    border-bottom : 3px solid #99E2D0;
+  }
 }
 
 .plats {
-    &__title {
-      font-size : 16px;
-      font-weight : 300;
-      padding-bottom :8px;
-      width: 40px;
-      border-bottom : 3px solid #99E2D0;
-    }
+  &__title {
+    font-size : 16px;
+    font-weight : 300;
+    padding-bottom :8px;
+    width: 40px;
+    border-bottom : 3px solid #99E2D0;
   }
+}
 
-  .desserts {
-    &__title {
-      font-size : 16px;
-      font-weight : 300;
-      padding-bottom :8px;
-      width: 40px;
-      border-bottom : 3px solid #99E2D0;
-    }
+.desserts {
+  &__title {
+    font-size : 16px;
+    font-weight : 300;
+    padding-bottom :8px;
+    width: 40px;
+    border-bottom : 3px solid #99E2D0;
   }
+}
 
 .card {
-    background-color: $white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
-    border-radius : 15px;
-    margin-top : 12px;
+  background-color: $white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+  border-radius : 15px;
+  margin-top : 12px;
+  display : flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  height : 70px;
+  cursor: pointer;
+  
+  &__name {
+    padding : 12px 15px 0 15px;
+    width: 100%;
+  }
+  
+  &__title {
+    font-size : 18px;
+    font-weight : 700;
+    text-overflow: ellipsis;
+    white-space : nowrap;
+    overflow : hidden;
+  }
+  
+  &__content {
     display : flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
-    height : 70px;
-    cursor: pointer;
-  
-    &__name {
-      padding : 12px 15px 0 15px;
-      width: 100%;
-    }
-  
-    &__title {
-      font-size : 18px;
-      font-weight : 700;
+    padding : 5px 0px 12px 0px;
+    
+    &__text {
+      font-size : 15px;
+      font-weight: 300;
+      width: 80%;
       text-overflow: ellipsis;
-        white-space : nowrap;
-        overflow : hidden;
-  
+      white-space : nowrap;
+      overflow : hidden;
     }
   
-    &__content {
-      display : flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      padding : 5px 0px 12px 0px;
-  
-      &__text {
-        font-size : 15px;
-        font-weight: 300;
-        width: 80%;
-        text-overflow: ellipsis;
-        white-space : nowrap;
-        overflow : hidden;
-      }
-  
-      &__price {
-        font-weight: 700;
-      }
+    &__price {
+      font-weight: 700;
     }
+  }
 }
   
 /* Bouton de commande */
 .order{
-    display : flex;
-    flex-direction :row;
-    align-items: center;
-    justify-content: center;
-    margin : 0 0 40px 0;
+  display : flex;
+  flex-direction :row;
+  align-items: center;
+  justify-content: center;
+  padding : 0 0 40px 0;
   
-    &__button {
-      font-size: $text-font-size;
-      font-style: $text-font-style;
-      font-weight: $text-font-weight;
-      color : $white;
-      text-align : center;
-      padding : 15.5px 23px;
-      border : none;
-      border-radius: 25px;
-      background: linear-gradient($pink, $primary);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    }
+  &__button {
+    font-size: $text-font-size;
+    font-style: $text-font-style;
+    font-weight: $text-font-weight;
+    color : $white;
+    text-align : center;
+    padding : 15.5px 23px;
+    border : none;
+    border-radius: 25px;
+    background: linear-gradient($pink, $primary);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
 }
 
 /* Pied de page */
 .footer {
-    background-color: $gray;
-    padding : 22px 25px;
+  background-color: $gray;
+  padding : 22px 25px;
   
-    &__logo {
-      height : 27px;
-      margin-bottom: 16px;
-    }
+  &__logo {
+    height : 27px;
+    margin-bottom: 16px;
+  }
     
-    &__box {
-      display : flex;
-      flex-direction: column;
-      justify-content: space-between;
+  &__box {
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
   
-      &__link {
-        color : $white;
-        font-size: 15px;
-        font-weight: $text-font-weight;
-        padding-bottom : 7px;
+    &__link {
+      color : $white;
+      font-size: 15px;
+      font-weight: $text-font-weight;
+      padding-bottom : 7px;
 
-        &__picto {
-            margin-right : 10px;
-            height : 13px;
-          }
+      &__picto {
+        margin-right : 10px;
+        height : 13px;
       }
-      
-    }
+    }  
+  }
 }
 
 /* Responsive */
 
 /* Version Tablette (768px) */
 @media (min-width : 768px) {
-    body {
-        background-color: $white;
-    }
+  body {
+    background-color: $white;
+  }
 
-    main {
-        display : flex;
-        flex-direction : column;
-        align-items : center;
-    }
+  .hero {
+    width : 100%;
 
-    .hero {
-        width : 100%;
-
-        &__image {
-            width: 100%;
-        }
-    }
-
-    .menu {
-        top : -40px;
-        width : 50%;
-        padding : 0 10%;
-
-        &__header {
-            justify-content: center;
-        }
-
-        &__title {
-            padding-right : 30px;
-        }
-    }
-
-    .restaurant__like {
-    position : relative;
-    &__switch{
-      display : inline-block;
-    }
-    &--empty {
-        width : 29px;
-        height : 80px;
-        transition : opacity 600ms ease;
-        position : absolute;
-        top : -30px;
-        right : -30px;
-        left : 0;
-        cursor: pointer;
-    }
-    &--full {
-        width : 29px;
-        height : 80px;
-        transition : opacity 600ms ease;
-        position : absolute;
-        top : -30px;
-        right : -30px;
-        left : 0;
-        cursor: pointer;
+    &__image {
+      width: 100%;
     }
   }
 
-    .footer {
-        display : flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        position : relative ;
-        top : -34px;
-        padding-top: 64px;
+  .restaurant__like {
+    right : 41px;
+  }
 
-        &__logo {
-            height : 27px;
+  .restaurant__like {
+    position : relative;
+    
+    &__switch{
+      display : inline-block;
+    }
+    
+    &--empty {
+      width : 29px;
+      height : 80px;
+      transition : opacity 600ms ease;
+      position : absolute;
+      top : -30px;
+      right : -30px;
+      left : 0;
+      cursor: pointer;
+    }
+    
+    &--full {
+      width : 29px;
+      height : 80px;
+      transition : opacity 600ms ease;
+      position : absolute;
+      top : -30px;
+      right : -30px;
+      left : 0;
+      cursor: pointer;
+    }
+  }
+}
+
+/*Version Ordinateur*/
+@media (min-width : 1020px) {
+  main {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+  }
+  
+  .menu {
+    width : 50%;
+    padding : 0 10%;
+
+    &__header {
+      justify-content: center;
+    }
+
+    &__title {
+      padding-right : 30px;
+    }
+  }
+
+  .restaurant__like {
+    right : 0;
+  }
+
+  .footer {
+    display : flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position : relative ;
+    padding-top: 64px;
+
+    &__logo {
+      height : 27px;
+    }
+
+    &__box {
+      display : flex;
+      flex-direction :row;
+      align-items: center;
+      justify-content: space-between;
+      padding-right : 50px;
+
+        &--tablet-desktop {
+          display: flex;
+          flex-direction: row;
         }
 
-        &__box {
-            display : flex;
-            flex-direction :row;
-            align-items: center;
-            justify-content: space-between;
-            padding-right : 50px;
+        &__link {
+          padding : 0 10px;
+        }
 
-            &--tablet-desktop {
-                display: flex;
-                flex-direction: row;
-            }
-
-            &__link {
-                padding : 0 10px;
-            }
-
-            &__picto {
-            margin-right : 5px;
-            }
+        &__picto {
+          margin-right : 5px;
+        }
     }
   }
 }
 
 /* Version Ecran Large (1440px) */
 @media (min-width : 1440px) {
-    /*Menu*/
   .menu {
     &__header {
       padding-bottom : 40px;
