@@ -480,6 +480,9 @@ input:not(:checked) ~ .restaurant__like--full {
   .menu__title {
     padding-right: 30px;
   }
+  .restaurant__like {
+    right: 0;
+  }
   .footer {
     display: flex;
     flex-direction: row-reverse;
