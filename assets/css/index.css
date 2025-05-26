@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /***** Variables *****/
-/***** Colors *****/
-/***** Fonts *****/
+/***** Couleurs *****/
+/***** Polices *****/
 /***** Générale *****/
 * {
   margin: 0;
@@ -359,7 +359,7 @@ a {
   cursor: pointer;
 }
 
-/***** Footer *****/
+/* Pied de page */
 .footer {
   background-color: #353535;
   padding: 22px 25px;
