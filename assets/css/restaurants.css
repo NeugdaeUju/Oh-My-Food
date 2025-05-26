@@ -260,7 +260,7 @@ input:not(:checked) ~ .restaurant__like--full {
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   position: relative;
-  top: -32px;
+  margin-top: -40px;
   z-index: 1;
   background-color: #F6F6F6;
 }
@@ -470,7 +470,6 @@ input:not(:checked) ~ .restaurant__like--full {
     align-items: center;
   }
   .menu {
-    top: -40px;
     width: 50%;
     padding: 0 10%;
   }
@@ -488,7 +487,6 @@ input:not(:checked) ~ .restaurant__like--full {
     flex-direction: row-reverse;
     align-items: center;
     position: relative;
-    top: -34px;
     padding-top: 64px;
   }
   .footer__logo {
