@@ -28,10 +28,10 @@ position : relative;
   opacity : 0;
 }
 
-.card__content__price {
+/*.card__content__price {
   right : 20px;
   bottom : 20px;
-}
+}*/
 
 .card__name {
     animation : price-inverse 600ms both;
@@ -100,6 +100,36 @@ position : relative;
 
 @keyframes price-inverse {
   0% {width: 85%;}
+  100% {width : 100%}
+}
+}
+
+@media (min-width : 1670px) {
+  .card {
+
+&:hover .card__check {
+    opacity : 1;
+    width: 59px;
+    transition: all 600ms ease;
+}
+
+&:hover .card__name {
+        animation : price-reduction 600ms both;
+}
+
+.card__name {
+    animation : price-inverse 600ms both;
+  }
+
+}
+
+@keyframes price-reduction {
+  0% {width : 100%}
+  100% {width: 90%;}
+}
+
+@keyframes price-inverse {
+  0% {width: 90%;}
   100% {width : 100%}
 }
 }

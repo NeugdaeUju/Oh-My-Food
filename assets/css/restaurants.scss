@@ -280,6 +280,21 @@
 }
 
 /* Responsive */
+@media (min-width : 320px) {
+  .menu__header {
+    padding-left : 10px;
+  }
+  
+  .restaurant__like {
+  &--empty {
+    left : 0px;
+  }
+
+  &--full {
+    left : 0px;
+  }
+}
+}
 
 /* Version Tablette (768px) */
 @media (min-width : 768px) {
