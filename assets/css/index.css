@@ -16,7 +16,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  margin-bottom: 26px;
+  margin-bottom: 22px;
 }
 
 p {
@@ -172,7 +172,7 @@ a {
   padding-right: 15px;
 }
 .location__text {
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   color: #353535;
@@ -188,7 +188,7 @@ a {
   padding: 39px 26px 57px 27px;
 }
 .hero__title {
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -196,7 +196,7 @@ a {
 }
 .hero__text {
   color: #353535;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 300;
   text-align: center;
@@ -228,6 +228,9 @@ a {
   align-items: center;
   margin-bottom: 25px;
   position: relative;
+}
+.function__text {
+  font-size: 14px;
 }
 .function__content {
   display: flex;
@@ -325,11 +328,11 @@ a {
   border-bottom-right-radius: 15px;
 }
 .restaurant__card__title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
 }
 .restaurant__card__text {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
   margin-top: 5px;
 }
@@ -375,7 +378,7 @@ a {
 }
 .footer__box__link {
   color: #FFF;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
   padding-bottom: 7px;
 }
@@ -386,6 +389,32 @@ a {
 
 /* Responsive */
 /* Version tablette (768px) */
+@media (min-width: 350px) {
+  .section__title {
+    font-size: 26px;
+  }
+  .location__text {
+    font-size: 16px;
+  }
+  .hero__title {
+    font-size: 24px;
+  }
+  .hero__text {
+    font-size: 18px;
+  }
+  .function__text {
+    font-size: 16px;
+  }
+  .restaurant__card__title {
+    font-size: 18px;
+  }
+  .restaurant__card__text {
+    font-size: 17px;
+  }
+  .footer__box__link {
+    font-size: 15px;
+  }
+}
 @media (min-width: 768px) {
   .section__title {
     margin-left: 20px;
