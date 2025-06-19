@@ -4,7 +4,7 @@ position : relative;
 
 &:active .card__check {
     opacity : 1;
-    width: 59px;
+    width: 40px;
     transition: all 600ms ease;
 }
 
@@ -48,6 +48,16 @@ position : relative;
 }
 
 /* Responsive */
+@media (min-width : 420px) {
+    .card {
+&:active .card__check {
+    width: 59px;
+}
+}
+
+
+}
+
 @media (min-width : 1020px) {
   .card {
 &:active .card__check {

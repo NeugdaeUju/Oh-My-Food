@@ -108,7 +108,7 @@ input:not(:checked) ~ .restaurant__like--full {
 }
 .card:active .card__check {
   opacity: 1;
-  width: 59px;
+  width: 40px;
   transition: all 600ms ease;
 }
 .card:active .card__name {
@@ -156,6 +156,11 @@ input:not(:checked) ~ .restaurant__like--full {
   }
 }
 /* Responsive */
+@media (min-width: 420px) {
+  .card:active .card__check {
+    width: 59px;
+  }
+}
 @media (min-width: 1020px) {
   .card:active .card__check {
     transform: none;
