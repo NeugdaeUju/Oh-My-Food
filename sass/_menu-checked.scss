@@ -17,7 +17,7 @@ position : relative;
   position : absolute;
   right : 0px;
   width: 0;
-    height : 70px;
+    height : 60px;
     background-color : #99E2D0;
     display : flex;
     flex-direction: column;
@@ -53,6 +53,10 @@ position : relative;
 &:active .card__check {
     width: 59px;
 }
+}
+
+.card__check {
+  height : 70px;
 }
 
 
