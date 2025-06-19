@@ -130,10 +130,11 @@ input:not(:checked) ~ .restaurant__like--full {
   opacity: 0;
 }
 
-/*.card__content__price {
-  right : 20px;
-  bottom : 20px;
-}*/
+.card__content__price {
+  right: 20px;
+  bottom: 20px;
+}
+
 .card__name {
   animation: price-inverse 600ms both;
 }
@@ -301,7 +302,7 @@ input:not(:checked) ~ .restaurant__like--full {
 }
 .menu__title {
   font-family: Shrikhand;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -317,7 +318,7 @@ input:not(:checked) ~ .restaurant__like--full {
   transition: opacity 600ms ease;
   position: absolute;
   top: -30px;
-  left: -30px;
+  left: -15px;
   cursor: pointer;
 }
 .restaurant__like--full {
@@ -326,7 +327,7 @@ input:not(:checked) ~ .restaurant__like--full {
   transition: opacity 600ms ease;
   position: absolute;
   top: -30px;
-  left: -30px;
+  left: -15px;
   cursor: pointer;
 }
 
@@ -337,26 +338,26 @@ input:not(:checked) ~ .restaurant__like--full {
 }
 
 .entree__title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   padding-bottom: 8px;
-  width: 40px;
+  width: 30px;
   border-bottom: 3px solid #99E2D0;
 }
 
 .plats__title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   padding-bottom: 8px;
-  width: 40px;
+  width: 30px;
   border-bottom: 3px solid #99E2D0;
 }
 
 .desserts__title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   padding-bottom: 8px;
-  width: 40px;
+  width: 30px;
   border-bottom: 3px solid #99E2D0;
 }
 
@@ -377,7 +378,7 @@ input:not(:checked) ~ .restaurant__like--full {
   width: 100%;
 }
 .card__title {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -391,7 +392,7 @@ input:not(:checked) ~ .restaurant__like--full {
   padding: 5px 0px 12px 0px;
 }
 .card__content__text {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 300;
   width: 80%;
   text-overflow: ellipsis;
@@ -400,6 +401,7 @@ input:not(:checked) ~ .restaurant__like--full {
 }
 .card__content__price {
   font-weight: 700;
+  font-size: 14px;
 }
 
 /* Bouton de commande */
@@ -439,7 +441,7 @@ input:not(:checked) ~ .restaurant__like--full {
 }
 .footer__box__link {
   color: #FFF;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
   padding-bottom: 7px;
 }
@@ -449,15 +451,33 @@ input:not(:checked) ~ .restaurant__like--full {
 }
 
 /* Responsive */
-@media (min-width: 320px) {
+@media (min-width: 350px) {
   .menu__header {
     padding-left: 10px;
   }
-  .restaurant__like--empty {
-    left: 0px;
+  .menu__title {
+    font-size: 28px;
   }
-  .restaurant__like--full {
-    left: 0px;
+  .entree__title {
+    font-size: 16px;
+    width: 40px;
+  }
+  .plats__title {
+    font-size: 16px;
+    width: 40px;
+  }
+  .desserts__title {
+    font-size: 16px;
+    width: 40px;
+  }
+  .card__title {
+    font-size: 18px;
+  }
+  .card__content__text {
+    font-size: 15px;
+  }
+  .footer__box__link {
+    font-size: 15px;
   }
 }
 /* Version Tablette (768px) */
