@@ -294,6 +294,20 @@
     left : 0px;
   }
 }
+
+  .card__title {
+    font-size : 16px;
+  }
+
+  .card__content{
+    &__price {
+      font-size : 14px;
+    }
+
+  &__text {
+    font-size : 14px;
+  }
+  }
 }
 
 /* Version Tablette (768px) */
