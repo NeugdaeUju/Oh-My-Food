@@ -1,30 +1,30 @@
 .card {
   transition : transform 300ms ease;
-position : relative;
+  position : relative;
 
-&:active .card__check {
+  &:active .card__check {
     opacity : 1;
     width: 40px;
     transition: all 600ms ease;
-}
+  }
 
-&:active .card__name {
-        animation : price-reduction 600ms both;
-}
+  &:active .card__name {
+    animation : price-reduction 600ms both;
+  }
 }
 
 .card__check {
   position : absolute;
   right : 0px;
   width: 0;
-    height : 60px;
-    background-color : #99E2D0;
-    display : flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-top-right-radius : 15px;
-    border-bottom-right-radius : 15px;
+  height : 60px;
+  background-color : #99E2D0;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius : 15px;
+  border-bottom-right-radius : 15px;
   opacity : 0;
 }
 
@@ -49,101 +49,94 @@ position : relative;
 
 /* Responsive */
 @media (min-width : 420px) {
-    .card {
-&:active .card__check {
-    width: 59px;
-}
-}
+  .card {
+      &:active .card__check {
+        width: 59px;
+    }
+  }
 
-.card__check {
-  height : 70px;
-}
-
-
+  .card__check {
+    height : 70px;
+  }
 }
 
 @media (min-width : 1020px) {
   .card {
-&:active .card__check {
-    transform: none;
-    opacity : 1;
-    width: 0;
-    transition: none;
-}
+    &:active .card__check {
+      transform: none;
+      opacity : 1;
+      width: 0;
+      transition: none;
+    }
 
-&:active .card__name {
-        animation : none;
-}
+    &:active .card__name {
+      animation : none;
+    }
 
-&:hover .card__check {
-    opacity : 1;
-    width: 59px;
-    transition: all 600ms ease;
-}
+    &:hover .card__check {
+      opacity : 1;
+      width: 59px;
+      transition: all 600ms ease;
+    }
 
-&:hover .card__name {
-        animation : price-reduction 600ms both;
-}
-
-}
+    &:hover .card__name {
+      animation : price-reduction 600ms both;
+    }
+  }
 }
 
 @media (min-width : 1440px) {
   .card {
+    &:hover .card__check {
+      opacity : 1;
+      width: 59px;
+      transition: all 600ms ease;
+    }
 
-&:hover .card__check {
-    opacity : 1;
-    width: 59px;
-    transition: all 600ms ease;
-}
+    &:hover .card__name {
+      animation : price-reduction 600ms both;
+    }
 
-&:hover .card__name {
-        animation : price-reduction 600ms both;
-}
-
-.card__name {
-    animation : price-inverse 600ms both;
+    .card__name {
+      animation : price-inverse 600ms both;
+    }
   }
 
-}
+  @keyframes price-reduction {
+    0% {width : 100%}
+    100% {width: 85%;}
+  }
 
-@keyframes price-reduction {
-  0% {width : 100%}
-  100% {width: 85%;}
-}
-
-@keyframes price-inverse {
-  0% {width: 85%;}
-  100% {width : 100%}
-}
+  @keyframes price-inverse {
+    0% {width: 85%;}
+    100% {width : 100%}
+  }
 }
 
 @media (min-width : 1670px) {
   .card {
+    &:hover .card__check {
+      opacity : 1;
+      width: 59px;
+      transition: all 600ms ease;
+    }
 
-&:hover .card__check {
-    opacity : 1;
-    width: 59px;
-    transition: all 600ms ease;
-}
+    &:hover .card__name {
+      animation : price-reduction 600ms both;
+    }
 
-&:hover .card__name {
-        animation : price-reduction 600ms both;
-}
-
-.card__name {
-    animation : price-inverse 600ms both;
+    .card__name {
+      animation : price-inverse 600ms both;
+    }
   }
 
-}
+  @keyframes price-reduction {
+    0% {width : 100%}
+    100% {width: 90%;}
+  }
 
-@keyframes price-reduction {
-  0% {width : 100%}
-  100% {width: 90%;}
-}
-
-@keyframes price-inverse {
-  0% {width: 90%;}
-  100% {width : 100%}
-}
+  @keyframes price-inverse {
+    0% {width: 90%;}
+    100% {width : 100%}
+  }
 }

@@ -1,71 +1,77 @@
 /***** Entrees *****/
 .card {
-    &__1 {
-        animation : card_Apparition both ease-in-out ;
-        animation-duration : 2s;
-        animation-delay : 100ms;
-    }
-    &__2 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 300ms;
-        animation-duration : 2s;
-    }
-    &__3 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 500ms;
-        animation-duration : 2s;
-    }
+  &__1 {
+      animation : card_Apparition both ease-in-out ;
+      animation-duration : 2s;
+      animation-delay : 100ms;
+  }
+    
+  &__2 {
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 300ms;
+    animation-duration : 2s;
+  }
+    
+  &__3 {
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 500ms;
+    animation-duration : 2s;
+  }
 
-    &__4{
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 700ms;
-        animation-duration : 2s;
-    }
+  &__4{
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 700ms;
+    animation-duration : 2s;
+  }
 }
 
 /***** Plats *****/
 .card {
-    &__4 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 900ms;
-        animation-duration : 2s;
-    }
-    &__5 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 1100ms;
-        animation-duration : 2s;
-    }
-    &__6 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 1300ms;
-        animation-duration : 2s;
-    }
+  &__4 {
+      animation : card_Apparition both ease-in-out;
+      animation-delay : 900ms;
+      animation-duration : 2s;
+  }
+
+  &__5 {
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 1100ms;
+    animation-duration : 2s;
+  }
+
+  &__6 {
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 1300ms;
+    animation-duration : 2s;
+  }
 }
 
 /***** Dessert *****/
 .card {
-    &__7 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 1500ms;
-        animation-duration : 2s;    
-    }
-    &__8 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 1700ms;
-        animation-duration : 2s;
-    }
-    &__9 {
-        animation : card_Apparition both ease-in-out;
-        animation-delay : 1900ms;
-        animation-duration : 2s;
-    }
+  &__7 {
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 1500ms;
+    animation-duration : 2s;    
+  }
+    
+  &__8 {
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 1700ms;
+    animation-duration : 2s;
+  }
+    
+  &__9 {
+    animation : card_Apparition both ease-in-out;
+    animation-delay : 1900ms;
+    animation-duration : 2s;
+  }
 }
 
 @keyframes card_Apparition {
-    0% {
-        opacity : 0%;
-    }
-    100% {
-        opacity : 100%;
-    }
+  0% {
+    opacity : 0%;
+  }
+  100% {
+    opacity : 100%;
+  }
 }

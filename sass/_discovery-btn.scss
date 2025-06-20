@@ -1,24 +1,26 @@
 .hero {
-    &__btn{
-        transition : all 600ms;
-        cursor: pointer;
-    &:active{
-        filter : brightness(1.10);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+  &__btn{
+    transition : all 600ms;
+    cursor: pointer;
+
+  &:active{
+    filter : brightness(1.10);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
     }
-    }
+  }
 }
 
 @media (min-width : 1020px) {
-    .hero {
+  .hero {
     &__btn {
-    &:hover{
+      &:hover{
         filter : brightness(1.10);
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
-    }
-    &:active{
+      }
+
+      &:active{
         filter : none;
+      }
     }
-    }
-}
+  }
 }

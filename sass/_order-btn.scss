@@ -1,27 +1,30 @@
 .order {
-    &__button{
-        transition : all 600ms;
-        cursor: pointer;
+  &__button{
+    transition : all 600ms;
+    cursor: pointer;
+    
     &:active{
-        filter : brightness(1.10);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+      filter : brightness(1.10);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
     }
-    }
+  }
 }
 
 
 @media (min-width : 1020px) {
-    .order {
+  .order {
     &__button{
-        transition : all 600ms;
-        cursor: pointer;
-    &:hover{
+      transition : all 600ms;
+      cursor: pointer;
+    
+      &:hover{
         filter : brightness(1.10);
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
-    }
-    &:active{
+      }
+    
+      &:active{
         filter : none;
+      }
     }
-    }
-}
+  }
 }
