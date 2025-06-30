@@ -200,12 +200,12 @@ input:not(:checked) ~ .restaurant__like--full {
       width: 100%;
     }
     100% {
-      width: 85%;
+      width: 87%;
     }
   }
   @keyframes price-inverse {
     0% {
-      width: 85%;
+      width: 87%;
     }
     100% {
       width: 100%;
